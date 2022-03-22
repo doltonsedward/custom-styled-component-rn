@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "doltons-styled-system-rn",
-    "slug": "doltons-styled-system-rn",
+    "name": "doltons-styled-component-rn",
+    "slug": "doltons-styled-component-rn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
