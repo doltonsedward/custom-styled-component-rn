@@ -7,6 +7,10 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "lint": "eslint . -c ./.eslintrc.js",
+    "lint:fix": "eslint . -c ./.eslintrc.js --fix",
+    "format": "prettier --write . --config ./.prettierrc",
+    "check-code": "yarn lint:fix && yarn tsc",
     "eject": "expo eject"
   },
   "dependencies": {
