@@ -1,5 +1,6 @@
 import layoutType from './layout';
 import spacingType from './spacing';
+import typographyType from './typography';
 
 export interface borderRadiusType {
   [key: string]: number;
@@ -20,7 +21,7 @@ export interface shadowType {
   [key: string]: shadowStyleType;
 }
 
-export interface systemsType extends spacingType, layoutType {
+export interface systemsType extends typographyType, spacingType, layoutType {
   borderRadius?: borderRadiusType;
   shadow?: shadowType;
   bg?: string;
