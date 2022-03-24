@@ -1,5 +1,5 @@
-type LineHeightType = {
+type lineHeightType = {
   [key: string]: number;
 };
 
-export default LineHeightType;
+export default lineHeightType;
