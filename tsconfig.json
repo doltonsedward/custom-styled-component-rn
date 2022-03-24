@@ -14,7 +14,7 @@
     "baseUrl": ".",
     "paths": {
       "@core/*": ["./src/core/*"],
-      "@lib/*": ["./src/libraries/*"]
+      "@libraries/*": ["./src/libraries/*"]
     }
   },
 
