@@ -1,5 +1,5 @@
 type letterSpacingType = {
-  [key: string]: number;
+  [key: string]: string;
 };
 
 export default letterSpacingType;
