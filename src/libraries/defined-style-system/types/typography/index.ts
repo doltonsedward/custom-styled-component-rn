@@ -1,13 +1,13 @@
-import FontSizeType from './font-size';
-import FontWeightType from './font-weight';
-import LetterSpacingType from './letter-spacing';
-import LineHeightType from './line-height';
+import fontSizeType from './font-size';
+import fontWeightType from './font-weight';
+import letterSpacingType from './letter-spacing';
+import lineHeightType from './line-height';
 
 interface TypographyType {
-  fontSize?: FontSizeType;
-  fontWeight?: FontWeightType;
-  lineHeight: LineHeightType;
-  letterSpacing?: LetterSpacingType;
+  fontSize?: fontSizeType;
+  fontWeight?: fontWeightType;
+  lineHeight: lineHeightType;
+  letterSpacing?: letterSpacingType;
 }
 
 export default TypographyType;

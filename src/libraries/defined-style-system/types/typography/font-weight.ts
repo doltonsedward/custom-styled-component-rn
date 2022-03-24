@@ -1,5 +1,5 @@
-type FontWeightType = {
+type fontWeightType = {
   [key: string]: number;
 };
 
-export default FontWeightType;
+export default fontWeightType;

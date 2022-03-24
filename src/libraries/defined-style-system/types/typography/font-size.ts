@@ -1,5 +1,5 @@
-type FontSizeType = {
+type fontSizeType = {
   [key: string]: number;
 };
 
-export default FontSizeType;
+export default fontSizeType;
