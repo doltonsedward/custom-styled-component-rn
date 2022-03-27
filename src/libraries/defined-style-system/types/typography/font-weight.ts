@@ -1,5 +1,5 @@
 type fontWeightType = {
-  [key: string]: number;
+  [key: string]: string;
 };
 
 export default fontWeightType;
