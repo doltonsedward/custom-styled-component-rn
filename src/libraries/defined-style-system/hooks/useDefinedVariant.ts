@@ -13,6 +13,7 @@ const useDefinedStyles = (props, compId, definedStyles) => {
   if (hasThemeChanged) currentTheme.current = theme;
 
   const styleSheets = definedStyles?.map((definedStyle, index) => {
+    // handle dynamic style with function
     if (typeof definedStyle === 'function') return createStyle(theme, systems, definedStyle(props));
 
     const isStyleAlrExist = StylesSheets[`${compId}_${index}`];
