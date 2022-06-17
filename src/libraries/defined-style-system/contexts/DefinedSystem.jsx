@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 
-export const DefinedSystemContext = React.createContext({});
+export const DefinedSystemContext = React.createContext();
 
 export const DefinedSystemProvider = ({ theme, systems, children }) => {
   const value = useMemo(
